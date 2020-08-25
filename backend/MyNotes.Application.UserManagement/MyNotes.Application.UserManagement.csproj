@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyNotes.Application.SharedKernel\MyNotes.Application.SharedKernel.csproj" />
+    <ProjectReference Include="..\MyNotes.Core.UserManagement\MyNotes.Core.UserManagement.csproj" />
+  </ItemGroup>
+
+</Project>

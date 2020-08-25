@@ -1,0 +1,11 @@
+{
+    "name": "mynotes",
+    "version": "1.0.0",
+    "description": "root package for mynotes",
+    "scripts": {
+        "myNotesStart": "npm start --prefix ./frontend",
+        "myNotesBddTestLocal": "npm config set acceptance-tests:file Protractor/mynotes.protractor.conf.local.js --prefix ./acceptance-tests && npm test --prefix ./acceptance-tests",
+        "myNotesBddTestDev": "npm config set acceptance-tests:file Protractor/mynotes.protractor.conf.dev.js --prefix ./acceptance-tests && npm test --prefix ./acceptance-tests"
+    },
+    "author": "Thien Tan"
+}
