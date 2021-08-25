@@ -7,7 +7,7 @@
   <ItemGroup>
 	  <PackageReference Include="Invio.Extensions.Authentication.JwtBearer" Version="2.0.1" />
 	  <PackageReference Include="MediatR" Version="8.0.1" />
-	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.18" />
 	  <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.5" />
 	  <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="3.1.5" />
 	  <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
